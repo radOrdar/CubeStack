@@ -18,7 +18,7 @@ public class UI : MonoBehaviour
 
     public async UniTask ShowScore()
     {
-        await gameUI.AnimateToShowScore(.7f);
+        await gameUI.AnimateToShowScore(1f);
     }
 
     public void ShowLost(int score, int bestScore)
